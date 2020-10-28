@@ -1,13 +1,9 @@
 #!/bin/sh
 
-echo "› Install xcode-install"
-
-sudo gem install xcode-install
-
 echo "› Installing Xcode"
 
-xcversion update
-xcversion install 10.1
+xcodes update
+xcodes install 12.0.1
 
 echo "› Installing Command Line Tools"
 
