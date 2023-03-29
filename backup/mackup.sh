@@ -3,4 +3,4 @@
 echo "› Backing up mackup"
 
 # https://github.com/lra/mackup
-mackup backup
+yes | mackup backup ; yes | mackup uninstall

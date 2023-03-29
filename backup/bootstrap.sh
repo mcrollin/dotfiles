@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "› Starting update"
+echo "› Starting backup"
 
 CURRENT_FOLDER="$(dirname "$0")"
 

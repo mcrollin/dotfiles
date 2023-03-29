@@ -3,4 +3,4 @@
 echo "› Restoring mackup"
 
 # https://github.com/lra/mackup
-mackup restore
+yes | mackup restore ; yes | mackup uninstall
